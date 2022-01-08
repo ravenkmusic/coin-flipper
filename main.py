@@ -3,12 +3,12 @@
 
 import random
 
-coin = random.randint(0, 1)
+coin_flip = random.randint(0, 1)
 
-if coin == 0:
+if coin_flip == 0:
   print("Heads!")
 
-if coin == 1:
+if coin_flip == 1:
   print("Tales!")
 
 
